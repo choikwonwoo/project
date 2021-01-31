@@ -51,6 +51,7 @@ class Main_Window(QMainWindow,uiadresss):
             del self.price[row]
             del self.count[row]
             self.tableWidget.removeRow(row)
+            self.nowPrice()
            
 
 
